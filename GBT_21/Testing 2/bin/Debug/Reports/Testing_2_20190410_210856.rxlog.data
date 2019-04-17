@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="16d7d498d141af74"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/10/2019 9:08:56 PM"
+		timestampiso="2019-04-10T14:08:56"
+		endtime="4/10/2019 9:10:32 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.6m"
+			durationms="95071"
+			type="test-suite"
+			rid="9d6169e5f860fa5"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Testing_2"
+			headertext="Testing_2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.6m"
+				durationms="95047"
+				type="test-case"
+				rid="1a1ed546146a2c56"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="2"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="5c98b67d-fa99-467e-a588-cb2f2ea0c945"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="1.1m"
+					durationms="64684"
+					type="setup-container"
+					rid="8ae3e82f09457ae"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Failed"
+						duration="1.1m"
+						durationms="64659"
+						type="test-module"
+						rid="31e5358a00f1607"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="bbcf5ffa-5686-4191-b707-7fe60a7ffe38"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Element for item 'DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c' does not exist (Failed to find item 'Testing_2Repository.H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'. No element found for path '/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' B&#7841;n ch&#432;a c&#243; l&#7899;p h&#7885;c ']' within 1m.).
+						</errormessage>
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.597"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="21:08:57"
+							time="00:00.597"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview' with browser 'chrome' in maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.166"
+							timeRelativeToTestModuleStartTime="00:00.585"
+							timeWallClock="21:08:57"
+							time="00:01.166"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.GiaoBaiT&#7853;p' at 27;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+								itempath="body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+								fullname="Testing_2Repository.HọcLiệuSachMềm.GiaoBaiTập"
+								id="e6c4041b816f44df94413e00afd7bfd6"
+								timeout="60000"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.751"
+							timeRelativeToTestModuleStartTime="00:04.170"
+							timeWallClock="21:09:01"
+							time="00:04.751"
+							level="Info"
+							category="Validation"
+							errimg="images_Testing__4eeaa89d\Testing__4eeaa89d_09173cc9_trace.jpg"
+							errthumb="images_Testing__4eeaa89d\Testing__4eeaa89d_09173cc9_trace_thumb.jpg">
+							<message>
+								Validating Exists on item 'H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+								id="2132dce24ee742948288c979f2ac9149"
+								timeout="60000"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.021"
+							timeRelativeToTestModuleStartTime="01:04.440"
+							timeWallClock="21:10:01"
+							time="01:05.021"
+							level="Failure"
+							category="Validation"
+							errimg="images_Testing__4eeaa89d\Testing__4eeaa89d_a58f9f65_trace.jpg"
+							errthumb="images_Testing__4eeaa89d\Testing__4eeaa89d_a58f9f65_trace_thumb.jpg">
+							<message>
+								Element for item 'DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c' does not exist (Failed to find item 'Testing_2Repository.H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'. No element found for path '/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' B&#7841;n ch&#432;a c&#243; l&#7899;p h&#7885;c ']' within 1m.).
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+								id="2132dce24ee742948288c979f2ac9149"
+								timeout="60000"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+								codeline="91"
+								loglvl="Failure"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.065"
+							timeRelativeToTestModuleStartTime="01:04.484"
+							timeWallClock="21:10:01"
+							time="01:05.065"
+							level="Error"
+							category="Module"
+							errimg="images_Testing__4eeaa89d\Testing__4eeaa89d_8b0c8c49_trace.jpg"
+							errthumb="images_Testing__4eeaa89d\Testing__4eeaa89d_8b0c8c49_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Element for item 'DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c' does not exist (Failed to find item 'Testing_2Repository.H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'. No element found for path '/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' B&#7841;n ch&#432;a c&#243; l&#7899;p h&#7885;c ']' within 1m.).<br/>Failed to find item 'Testing_2Repository.H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'.<br/>No element found for path '/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' B&#7841;n ch&#432;a c&#243; l&#7899;p h&#7885;c ']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   at Testing_2.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+								codeline="91"
+								type="repoitem"
+								path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+								fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+								id="2132dce24ee742948288c979f2ac9149"
+								timeout="60000"
+								loglvl="Error"
+								itemindex="2">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="30.36s"
+					durationms="30357"
+					type="teardown-container"
+					rid="1e2671ee9eaa8bdb"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Failed"
+						duration="30.35s"
+						durationms="30354"
+						type="test-module"
+						rid="c9a3b5adefbbb50"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseBrowser"
+						displayName="CloseBrowser"
+						moduleid="65e98a86-16c5-40ab-939b-2fd05f334b03"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Failed to find item 'Testing_2Repository.ApplicationUnderTest.Self'.
+						</errormessage>
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.253"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="21:10:01"
+							time="01:05.253"
+							level="Info"
+							category="Application"
+							errimg="images_Testing__4eeaa89d\Testing__4eeaa89d_b491ebaf_trace.jpg"
+							errthumb="images_Testing__4eeaa89d\Testing__4eeaa89d_b491ebaf_trace_thumb.jpg">
+							<message>
+								Closing application containing item 'ApplicationUnderTest'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']"
+								itempath="/dom[@domain='www.ranorex.com']"
+								fullname="Testing_2Repository.ApplicationUnderTest.Self"
+								id="08198c71b9e04a1aba4ca5d53f7dc602"
+								timeout="30000"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\CloseBrowser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:35.449"
+							timeRelativeToTestModuleStartTime="00:30.198"
+							timeWallClock="21:10:31"
+							time="01:35.449"
+							level="Error"
+							category="Module"
+							errimg="images_Testing__4eeaa89d\Testing__4eeaa89d_5a47693d_trace.jpg"
+							errthumb="images_Testing__4eeaa89d\Testing__4eeaa89d_5a47693d_trace_thumb.jpg">
+							<message>
+								Failed to find item 'Testing_2Repository.ApplicationUnderTest.Self'.<br/>No element found for path '/dom[@domain='www.ranorex.com']' within 30s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Testing_2.Testing_2RepositoryFolders.ApplicationUnderTestAppFolder.get_Self() in c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\Testing_2Repository.cs:line 160&#13;&#10;   at Testing_2.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\CloseBrowser.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\CloseBrowser.cs"
+								codeline="83"
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']"
+								itempath="/dom[@domain='www.ranorex.com']"
+								fullname="Testing_2Repository.ApplicationUnderTest.Self"
+								id="08198c71b9e04a1aba4ca5d53f7dc602"
+								timeout="30000"
+								loglvl="Error"
+								itemindex="0">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GBT_26</name>
+    </assembly>
+    <members>
+        <member name="T:GBT_26.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_26.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_26Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_26.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_26.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_26.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_26.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_26.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_26.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_26.GBT_26Repository">
+            <summary>
+            The class representing the GBT_26Repository element repository.
+            </summary>
+        </member>
+        <member name="M:GBT_26.GBT_26Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the GBT_26Repository element repository.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26Repository.HọcLiệuSachMềm">
+            <summary>
+            The HọcLiệuSachMềm folder.
+            </summary>
+        </member>
+        <member name="T:GBT_26.GBT_26RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:GBT_26.GBT_26RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_26.GBT_26RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder">
+            <summary>
+            The HọcLiệuSachMềmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềm  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.JavascriptVoid0">
+            <summary>
+            The JavascriptVoid0 item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.JavascriptVoid0Info">
+            <summary>
+            The JavascriptVoid0 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.DivTagSốLầnLamLạiPhảiLớnHơnHoặc">
+            <summary>
+            The DivTagSốLầnLamLạiPhảiLớnHơnHoặc item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.DivTagSốLầnLamLạiPhảiLớnHơnHoặcInfo">
+            <summary>
+            The DivTagSốLầnLamLạiPhảiLớnHơnHoặc item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HọcLiệuSachMềmAppFolder.HttpsHoclieuSachmemVnQuestionSet">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSet folder.
+            </summary>
+        </member>
+        <member name="T:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSetFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsHoclieuSachmemVnQuestionSet  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarked">
+            <summary>
+            The NgOptionNgOptionMarked item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarkedInfo">
+            <summary>
+            The NgOptionNgOptionMarked item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgInput">
+            <summary>
+            The NgInput item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgInputInfo">
+            <summary>
+            The NgInput item info.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number">
+            <summary>
+            The Number item.
+            </summary>
+        </member>
+        <member name="P:GBT_26.GBT_26RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NumberInfo">
+            <summary>
+            The Number item info.
+            </summary>
+        </member>
+        <member name="T:GBT_26.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_26.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_26Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_26.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_26.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_26.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_26.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_26.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_26.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_26.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:GBT_26.Recording1.repo">
+            <summary>
+            Holds an instance of the GBT_26Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_26.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_26.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_26.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_26.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_26.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_26.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

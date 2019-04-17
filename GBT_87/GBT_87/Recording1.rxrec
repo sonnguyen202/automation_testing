@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bd189db1-d861-4bb9-80db-64f482252833"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="GBT_87">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="763f3df5-c8da-474d-92d9-4b8748615225"
+	name="GBT_87Repository"
+	relativepath="GBT_87Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="GBT_87Repository"
+		namespace="GBT_87">
+		</codegen>
+		<rootfolder
+		id="3a9d4bf8-d7f6-4d1a-af20-69a773da08cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

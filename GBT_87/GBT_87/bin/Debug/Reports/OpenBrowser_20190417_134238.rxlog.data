@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12488f6771128733"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/17/2019 1:42:43 PM"
+		timestampiso="2019-04-17T06:42:43"
+		endtime="4/17/2019 1:42:49 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.072"
+			timeRelativeToTestModuleStartTime="00:06.072"
+			timeWallClock="13:42:49"
+			time="00:06.072"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\black\Desktop\Automattion Testing\GBT_87\GBT_87\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

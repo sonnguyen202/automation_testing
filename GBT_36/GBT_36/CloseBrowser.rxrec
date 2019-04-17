@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="943d4266-c31a-4be4-b196-1fc1046c3009"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="GBT_36">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="7a82dc44-3f1c-4fd0-9311-8276998f07d7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfaf14c8-0706-4ec2-a8f2-9e3bd850c45f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="97edd969-1636-40e9-9536-aee98607b3ff"
+	name="GBT_36Repository"
+	relativepath="GBT_36Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="GBT_36Repository"
+		namespace="GBT_36">
+		</codegen>
+		<rootfolder
+		id="c81240ae-7b55-4acf-9fae-5cbae3a93ded"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

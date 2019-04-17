@@ -1,0 +1,149 @@
+﻿<repository
+id="9058a0d4-abb7-4ba3-9636-207f83fee6d5"
+name="GBT_26Repository"
+rxversion="9.0">
+	<codegen
+	classname="GBT_26Repository"
+	namespace="GBT_26">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="551c892e-d6b2-407d-b70d-e189a0d54498"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ba136b5c-8919-436b-b7b9-537bce40cba9"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a5c873a1-1f7e-4f7b-bb98-5f75ac84a018"
+		isrooted="True"
+		name="HọcLiệuSachMềm"
+		refpath="/dom[@domain='hoclieu.sachmem.vn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1bf4b1a5-0405-4bdb-9f10-4c6e91018dca"
+			name="JavascriptVoid0"
+			refimgid="8b7157d8-0992-4365-9b09-9dfc200272c8"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div/div/div/tag[@tagname='question']/div/div[2]/div/div/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="682fc6b3-af6a-4993-9294-e1737d3638a2"
+			name="DivTagSốLầnLamLạiPhảiLớnHơnHoặc"
+			refimgid="f57ecbe5-a6e4-44c5-a396-6230f44b2da4"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/div/div[@innertext=' Số lần làm lại phải lớn hơn hoặc bằng 0 ']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext~'^\ S&#7889;\ l&#7847;n\ l&#224;m\ l&#7841;i\ ph&#7843;i\ l&#7899;n\ ']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="52c418c1-fdd6-4f5f-b3e8-5128fdaf6893"
+			isrooted="True"
+			name="HttpsHoclieuSachmemVnQuestionSet"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b2459964-f2dd-4fd1-a8db-347663b34570"
+				name="Submit"
+				refimgid="ac6ca9e0-1849-4e4e-a551-e603e3398923"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[2]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/?/?/input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="39b9e9ce-9320-43d0-8768-f22674455d90"
+				name="NgOptionNgOptionMarked"
+				refimgid="3a8a9ee1-799d-4ba9-9290-84f41fb66434"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/tag[@tagname='ng-dropdown-panel']/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/?/?/tag[@tagname='ng-dropdown-panel']/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="6c75e94c-0135-487d-971f-4083624539c6"
+				name="NgInput"
+				refimgid="cfe17715-22ec-4d9f-a91c-5b3cec7fddb7"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="4cc19920-4895-4109-b373-a44aecc5f027"
+				name="Number"
+				refimgid="d5280860-28fc-4b49-ad41-f3f9b3494dca"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[7]/input[@type='number']"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[7]/input[@type='number']
+				</item>
+				<basepath>
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='hoclieu.sachmem.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

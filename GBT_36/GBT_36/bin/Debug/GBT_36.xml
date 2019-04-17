@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GBT_36</name>
+    </assembly>
+    <members>
+        <member name="T:GBT_36.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_36.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_36Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_36.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_36.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_36.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_36.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_36.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_36.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_36.GBT_36Repository">
+            <summary>
+            The class representing the GBT_36Repository element repository.
+            </summary>
+        </member>
+        <member name="M:GBT_36.GBT_36Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the GBT_36Repository element repository.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36Repository.HọcLiệuSachMềm">
+            <summary>
+            The HọcLiệuSachMềm folder.
+            </summary>
+        </member>
+        <member name="T:GBT_36.GBT_36RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:GBT_36.GBT_36RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_36.GBT_36RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder">
+            <summary>
+            The HọcLiệuSachMềmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềm  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.GiaoBaiTập">
+            <summary>
+            The GiaoBaiTập item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.GiaoBaiTậpInfo">
+            <summary>
+            The GiaoBaiTập item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.DivTagGiaoBaiTậpThanhCong">
+            <summary>
+            The DivTagGiaoBaiTậpThanhCong item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.DivTagGiaoBaiTậpThanhCongInfo">
+            <summary>
+            The DivTagGiaoBaiTậpThanhCong item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HọcLiệuSachMềmAppFolder.HttpsHoclieuSachmemVnQuestionSet">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSet folder.
+            </summary>
+        </member>
+        <member name="T:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSetFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsHoclieuSachmemVnQuestionSet  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.ModalBody">
+            <summary>
+            The ModalBody item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.ModalBodyInfo">
+            <summary>
+            The ModalBody item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.DivTagRow">
+            <summary>
+            The DivTagRow item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.DivTagRowInfo">
+            <summary>
+            The DivTagRow item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgArrowWrapper">
+            <summary>
+            The NgArrowWrapper item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgArrowWrapperInfo">
+            <summary>
+            The NgArrowWrapper item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarked">
+            <summary>
+            The NgOptionNgOptionMarked item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarkedInfo">
+            <summary>
+            The NgOptionNgOptionMarked item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number">
+            <summary>
+            The Number item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NumberInfo">
+            <summary>
+            The Number item info.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number1">
+            <summary>
+            The Number1 item.
+            </summary>
+        </member>
+        <member name="P:GBT_36.GBT_36RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Number1Info">
+            <summary>
+            The Number1 item info.
+            </summary>
+        </member>
+        <member name="T:GBT_36.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_36.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_36Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_36.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_36.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_36.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_36.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_36.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_36.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_36.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:GBT_36.Recording1.repo">
+            <summary>
+            Holds an instance of the GBT_36Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_36.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_36.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_36.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_36.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_36.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_36.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

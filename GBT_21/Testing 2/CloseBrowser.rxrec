@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="65e98a86-16c5-40ab-939b-2fd05f334b03"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Testing_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="3b04a9b3-43aa-4387-a473-6b0c675b1d4d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="08198c71-b9e0-4a1a-ba4c-a5d53f7dc602"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f36cb1d9-4af5-4136-a5f3-b2266fc531f6"
+	name="Testing_2Repository"
+	relativepath="Testing_2Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Testing_2Repository"
+		namespace="Testing_2">
+		</codegen>
+		<rootfolder
+		id="13949ddb-9164-438c-a395-b3d6b9124318"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

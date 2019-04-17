@@ -1,0 +1,10 @@
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.rxtmg
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.rxtst
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.exe.config
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.xml
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.exe
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\GBT_26.pdb
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\obj\x86\Debug\GBT_26.csprojResolveAssemblyReference.cache
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\obj\x86\Debug\GBT_26.exe
+C:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\obj\x86\Debug\GBT_26.pdb

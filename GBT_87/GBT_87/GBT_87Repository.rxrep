@@ -1,0 +1,340 @@
+﻿<repository
+id="763f3df5-c8da-474d-92d9-4b8748615225"
+name="GBT_87Repository"
+rxversion="9.0">
+	<codegen
+	classname="GBT_87Repository"
+	namespace="GBT_87">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3a9d4bf8-d7f6-4d1a-af20-69a773da08cd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3ad2b8bd-d431-43f4-86b5-9bcecc105c49"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="6969b249-46b0-4c20-b7bf-e634f6d26109"
+		isrooted="True"
+		name="HọcLiệuSachMềm"
+		refpath="/dom[@domain='hoclieu.sachmem.vn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="cffa8d52-7230-43fb-8545-78b73bee59f4"
+			name="GiaoBaiTập"
+			refimgid="2fd41e91-76ab-4e8c-a528-f81f583e901d"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div/div/div/tag[@tagname='question']/div/div[2]/div/div/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a/span[@innertext='Giao bài tập']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao b&#224;i t&#7853;p']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a3e2d8b2-a950-48a1-8619-48e8614ae0c8"
+			name="SpanTag1"
+			refimgid="8ec7ab06-a3ce-4ef2-9190-79837c6935c3"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='bs-datepicker-container']/div/div/div/div/tag/tag/div[2]/table/tbody/tr[1]/td[3]/span[@innertext='1']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']/body//tag[@tagname='bs-calendar-layout']/div[2]/table/tbody/tr[1]/td[3]/span[@innertext='1']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1168d4ee-8003-4c47-946b-923cc71261c2"
+			name="SpanTag3"
+			refimgid="fadbacb2-0ca8-4b8c-b415-f2b76f5b8458"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='bs-datepicker-container']/div/div/div/div/tag/tag/div[2]/table/tbody/tr[1]/td[5]/span[@innertext='3']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']/body//tag[@tagname='bs-calendar-layout']/div[2]/table/tbody/tr[1]/td[5]/span[@innertext='3']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="60ff5ab4-2245-4a91-b34d-1ed24cc37372"
+			isrooted="True"
+			name="HttpsHoclieuSachmemVnQuestionSet"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="10a1a154-f4eb-4fe3-89b1-6a5d4ae55493"
+				name="Submit"
+				refimgid="87028f31-86f2-4659-9730-a3d11ce75714"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[2]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/?/?/input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="604b6b65-7bc9-4456-88f1-2964607e1ee5"
+				name="Text"
+				refimgid="8dac8bbd-64c4-4048-9f5f-f3ac11445bb0"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[10]/div[1]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[10]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b7bc923b-1f18-47a7-93b4-6365bab6b54a"
+				name="Text1"
+				refimgid="c9292b4b-a1aa-49a3-a0d4-c59af9d2dfb9"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[10]/div[3]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[10]/?/?/input[@value='11/04/2019']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="35790c1e-bd33-4ecf-a952-5cb8b3a87b6e"
+				name="NgOptionNgOptionMarked"
+				refimgid="0547e0be-8ab4-44c4-ae59-8543066cf1e5"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/tag[@tagname='ng-dropdown-panel']/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/?/?/tag[@tagname='ng-dropdown-panel']/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5201eb2b-f88d-4787-bc9d-458ffa2bb609"
+				name="NgInput"
+				refimgid="03c1eb9e-c941-4dd6-a5ff-379773eaa7f6"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0e4f54af-cb81-4ab8-8a29-3e46c4b6612d"
+				name="NgArrowWrapper"
+				refimgid="ce8213e4-07df-4e82-95bb-66280417c528"
+				refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/div/span"
+				searchtimeout="30000ms">
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]//span
+				</item>
+				<basepath>
+					/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1834d588-11d4-4878-a683-e4c694e2a0f0"
+			name="JavascriptVoid0"
+			refimgid="30a1caae-05dc-464a-952c-17e05a9f2cf4"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div/div/div/tag[@tagname='question']/div/div[2]/div/div/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d82fb8ff-3986-48f1-a48e-88e14fbf5fe0"
+			name="ToastErrorToastNgTriggerNgTrigger"
+			refimgid="d4ab1963-8f55-4b95-a777-1a40a8da9be3"
+			refpath="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/div
+			</item>
+			<basepath>
+				/dom[@domain='hoclieu.sachmem.vn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="546e4c22-daef-4c70-94bf-9488dccbc77f"
+		isrooted="True"
+		name="HọcLiệuSachMềm1"
+		refpath="/dom[6]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="120de90e-c757-4b50-9592-e2ace132a4c5"
+			name="JavascriptVoid0"
+			refimgid="5b69f8d0-d5f0-44a9-b60b-740a29e632eb"
+			refpath="/dom[6]/body/tag[@tagname='app-root']/div[2]/div/div/div/tag[@tagname='question']/div/div[2]/div/div/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']"
+			searchtimeout="30000ms">
+				/dom[6]/body/tag[@tagname='app-root']/div[2]/div//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ec60b55d-22fc-454b-abeb-05e14fcfbb51"
+			name="SpanTag3"
+			refimgid="a93c03c9-3983-4b66-acae-be45a8d17704"
+			refpath="/dom[6]/body/tag[@tagname='bs-datepicker-container']/div/div/div/div/tag/tag/div[2]/table/tbody/tr[1]/td[5]/span[@innertext='3']"
+			searchtimeout="30000ms">
+				/dom[6]/body//tag[@tagname='bs-calendar-layout']/div[2]/table/tbody/tr[1]/td[5]/span[@innertext='3']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d768c045-aaad-4ccf-8654-c4d265badb65"
+			name="SpanTag5"
+			refimgid="f8d8dfcb-f69c-45db-9c2c-455ff8067783"
+			refpath="/dom[6]/body/tag[@tagname='bs-datepicker-container']/div/div/div/div/tag/tag/div[2]/table/tbody/tr[1]/td[7]/span[@innertext='5']"
+			searchtimeout="30000ms">
+				/dom[6]/body//tag[@tagname='bs-calendar-layout']/div[2]/table/tbody/tr[1]/td[7]/span[@innertext='5']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9f9bd990-ed8e-4312-a304-fcbf109629aa"
+			name="SomeDivTag"
+			refimgid="f7a25efa-4f75-41ff-a466-4ff5cc35d4ac"
+			refpath="/dom[6]//div[#'toast-container']/div/div"
+			searchtimeout="30000ms">
+				/dom[6]//div[#'toast-container']/?/?/div
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="49e3852c-8f17-4ea6-b8e3-68293527019b"
+			isrooted="True"
+			name="CreateAssignmentModal1"
+			refpath="/dom[6]//div[#'createAssignmentModal']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="c0fcce4d-228c-458b-9648-a93cca9b2f9e"
+				name="CreateAssignmentModal"
+				refimgid="061d9a58-d3b6-4ab6-ba93-9f83dac79fda"
+				refpath="/dom[6]//div[#'createAssignmentModal']"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="1d0358e1-5740-4bd3-8225-629cfe66cfeb"
+				name="Submit"
+				refimgid="93ff4f57-19ad-4500-846d-ad03b7ae6bce"
+				refpath="/dom[6]//div[#'createAssignmentModal']/div/div/form/div[2]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview']/?/?/input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="dd7582f4-c80b-4ab4-8392-f353f747da96"
+				name="Text"
+				refimgid="5317dfca-ea33-4493-aa5c-261c2adf3084"
+				refpath="/dom[6]//div[#'createAssignmentModal']/div/div/form/div[1]/div[10]/div[1]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview']/div[1]/div[10]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="71b5f607-d828-43ff-a62f-4aa8248d7669"
+				name="Text1"
+				refimgid="4910af79-01cd-48ea-bfa9-defe97eaadba"
+				refpath="/dom[6]//div[#'createAssignmentModal']/div/div/form/div[1]/div[10]/div[3]/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview']/div[1]/div[10]/?/?/input[@value='17/04/2019']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="d5a7c9b9-2962-4641-b243-efbaaecd4186"
+				name="NgOptionNgOptionMarked"
+				refimgid="d5d96877-6fca-4de1-93bb-39be01779cc8"
+				refpath="/dom[6]//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/tag[@tagname='ng-dropdown-panel']/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview']/div[1]/div[3]/?/?/tag[@tagname='ng-dropdown-panel']/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="85adefa8-e3c3-49d7-93d1-b69e2320baa5"
+				name="NgInput"
+				refimgid="d5c6d17e-2b69-4f28-b668-165dd662b674"
+				refpath="/dom[6]//div[#'createAssignmentModal']/div/div/form/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]"
+				searchtimeout="30000ms">
+					/dom[6]//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18bc48150cd8b90657e7/5a4b18bc48150cd8b90657ea/preview']/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]
+				</item>
+				<basepath>
+					/dom[6]//div[#'createAssignmentModal']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[6]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

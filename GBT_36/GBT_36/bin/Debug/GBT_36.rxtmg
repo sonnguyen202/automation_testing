@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="GBT_36"
+      id="9d45a041-5a18-4a78-94f1-6b987528c808"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="GBT_36"
+      id="9d45a041-5a18-4a78-94f1-6b987528c808"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

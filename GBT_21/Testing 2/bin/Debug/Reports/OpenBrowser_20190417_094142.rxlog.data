@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="59.85s"
+		durationms="59854"
+		type="root"
+		rid="179da5deef52a626"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/17/2019 9:41:54 AM"
+		timestampiso="2019-04-17T02:41:54"
+		endtime="4/17/2019 9:42:54 AM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.652"
+			timeRelativeToTestModuleStartTime="00:08.653"
+			timeWallClock="09:42:03"
+			time="00:08.652"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.249"
+			timeRelativeToTestModuleStartTime="00:09.250"
+			timeWallClock="09:42:04"
+			time="00:09.249"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.GiaoBaiT&#7853;p' at 27;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				itempath="body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.GiaoBaiTập"
+				id="e6c4041b816f44df94413e00afd7bfd6"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:59.854"
+			timeRelativeToTestModuleStartTime="00:59.855"
+			timeWallClock="09:42:54"
+			time="00:59.854"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="263170c6d4c06f40"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/17/2019 9:49:51 AM"
+		timestampiso="2019-04-17T02:49:51"
+		endtime="4/17/2019 9:50:07 AM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.654"
+			timeRelativeToTestModuleStartTime="00:05.654"
+			timeWallClock="09:49:56"
+			time="00:05.654"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.001"
+			timeRelativeToTestModuleStartTime="00:06.001"
+			timeWallClock="09:49:57"
+			time="00:06.001"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.JavascriptVoid0' at 27;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]/div//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']"
+				itempath="body/tag[@tagname='app-root']/div[2]/div//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.JavascriptVoid0"
+				id="1bf4b1a504054bdb9f104c6e91018dca"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.848"
+			timeRelativeToTestModuleStartTime="00:09.848"
+			timeWallClock="09:50:01"
+			time="00:09.848"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.HttpsHoclieuSachmemVnQuestionSet.NgInput' at 127;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]"
+				itempath="div[1]/div[3]/tag[@tagname='ng-select']/div/div/div[2]"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.HttpsHoclieuSachmemVnQuestionSet.NgInput"
+				id="6c75e94c0135487d971f4083624539c6"
+				timeout="90000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.861"
+			timeRelativeToTestModuleStartTime="00:10.861"
+			timeWallClock="09:50:02"
+			time="00:10.861"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.HttpsHoclieuSachmemVnQuestionSet.NgOptionNgOptionMarked' at 126;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[3]/?/?/tag[@tagname='ng-dropdown-panel']/div/div[2]/div"
+				itempath="div[1]/div[3]/?/?/tag[@tagname='ng-dropdown-panel']/div/div[2]/div"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.HttpsHoclieuSachmemVnQuestionSet.NgOptionNgOptionMarked"
+				id="39b9e9ce932043d08768f22674455d90"
+				timeout="90000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.165"
+			timeRelativeToTestModuleStartTime="00:12.165"
+			timeWallClock="09:50:03"
+			time="00:12.165"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -360 units.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.715"
+			timeRelativeToTestModuleStartTime="00:12.715"
+			timeWallClock="09:50:03"
+			time="00:12.715"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.HttpsHoclieuSachmemVnQuestionSet.Number' at 103;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[7]/input[@type='number']"
+				itempath="div[1]/div[7]/input[@type='number']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.HttpsHoclieuSachmemVnQuestionSet.Number"
+				id="4cc1992048954109b373a44aecc5f027"
+				timeout="90000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.680"
+			timeRelativeToTestModuleStartTime="00:13.680"
+			timeWallClock="09:50:04"
+			time="00:13.680"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '-10' with focus on 'H&#7885;cLi&#7879;uSachM&#7873;m.HttpsHoclieuSachmemVnQuestionSet.Number'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/div[1]/div[7]/input[@type='number']"
+				itempath="div[1]/div[7]/input[@type='number']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.HttpsHoclieuSachmemVnQuestionSet.Number"
+				id="4cc1992048954109b373a44aecc5f027"
+				timeout="90000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.483"
+			timeRelativeToTestModuleStartTime="00:14.483"
+			timeWallClock="09:50:05"
+			time="00:14.483"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.HttpsHoclieuSachmemVnQuestionSet.Submit' at 33;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'createAssignmentModal']//form[@action='https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview']/?/?/input[@type='submit']"
+				itempath="?/?/input[@type='submit']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.HttpsHoclieuSachmemVnQuestionSet.Submit"
+				id="b2459964f2dd4fd1a8db347663b34570"
+				timeout="90000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.596"
+			timeRelativeToTestModuleStartTime="00:15.596"
+			timeWallClock="09:50:06"
+			time="00:15.596"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'H&#7885;cLi&#7879;uSachM&#7873;m.DivTagS&#7889;L&#7847;nLamL&#7841;iPh&#7843;iL&#7899;nH&#417;nHo&#7863;c'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext~'^\ Số\ lần\ làm\ lại\ phải\ lớn\ ']"
+				itempath=".//div[#'toast-container']/?/?/div[@innertext~'^\ Số\ lần\ làm\ lại\ phải\ lớn\ ']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.DivTagSốLầnLamLạiPhảiLớnHơnHoặc"
+				id="682fc6b3af6a49939294e1737d3638a2"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.811"
+			timeRelativeToTestModuleStartTime="00:15.811"
+			timeWallClock="09:50:07"
+			time="00:15.811"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'DivTagS&#7889;L&#7847;nLamL&#7841;iPh&#7843;iL&#7899;nH&#417;nHo&#7863;c' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext~'^\ Số\ lần\ làm\ lại\ phải\ lớn\ ']"
+				itempath=".//div[#'toast-container']/?/?/div[@innertext~'^\ Số\ lần\ làm\ lại\ phải\ lớn\ ']"
+				fullname="GBT_26Repository.HọcLiệuSachMềm.DivTagSốLầnLamLạiPhảiLớnHơnHoặc"
+				id="682fc6b3af6a49939294e1737d3638a2"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\GBT_26\GBT_26\OpenBrowser.cs"
+				codeline="115"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

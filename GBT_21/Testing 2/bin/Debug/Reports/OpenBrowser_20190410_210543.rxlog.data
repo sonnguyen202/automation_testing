@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="43.71s"
+		durationms="43714"
+		type="root"
+		rid="fa87942ddb82716"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/10/2019 9:05:47 PM"
+		timestampiso="2019-04-10T14:05:47"
+		endtime="4/10/2019 9:06:31 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.044"
+			timeRelativeToTestModuleStartTime="00:05.044"
+			timeWallClock="21:05:52"
+			time="00:05.044"
+			level="Info"
+			category="Website"
+			errimg="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_588bae20_trace.jpg"
+			errthumb="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_588bae20_trace_thumb.jpg">
+			<message>
+				Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.307"
+			timeRelativeToTestModuleStartTime="00:05.307"
+			timeWallClock="21:05:52"
+			time="00:05.307"
+			level="Info"
+			category="Mouse"
+			errimg="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_fd8eb658_trace.jpg"
+			errthumb="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_fd8eb658_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.GiaoBaiT&#7853;p' at 27;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				itempath="body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.GiaoBaiTập"
+				id="e6c4041b816f44df94413e00afd7bfd6"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.411"
+			timeRelativeToTestModuleStartTime="00:09.411"
+			timeWallClock="21:05:56"
+			time="00:09.411"
+			level="Info"
+			category="Validation"
+			errimg="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_e82f3716_trace.jpg"
+			errthumb="images_OpenBrow_75ea32b9\OpenBrow_75ea32b9_e82f3716_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+				id="2132dce24ee742948288c979f2ac9149"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.714"
+			timeRelativeToTestModuleStartTime="00:43.714"
+			timeWallClock="21:06:31"
+			time="00:43.714"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

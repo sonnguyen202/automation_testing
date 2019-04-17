@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GBT_87</name>
+    </assembly>
+    <members>
+        <member name="T:GBT_87.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_87.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_87Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_87.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_87.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_87.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_87.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_87.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_87.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87Repository">
+            <summary>
+            The class representing the GBT_87Repository element repository.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the GBT_87Repository element repository.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87Repository.HọcLiệuSachMềm">
+            <summary>
+            The HọcLiệuSachMềm folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87Repository.HọcLiệuSachMềm1">
+            <summary>
+            The HọcLiệuSachMềm1 folder.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder">
+            <summary>
+            The HọcLiệuSachMềmAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềm  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.GiaoBaiTập">
+            <summary>
+            The GiaoBaiTập item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.GiaoBaiTậpInfo">
+            <summary>
+            The GiaoBaiTập item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.SpanTag1">
+            <summary>
+            The SpanTag1 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.SpanTag1Info">
+            <summary>
+            The SpanTag1 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.SpanTag3">
+            <summary>
+            The SpanTag3 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.SpanTag3Info">
+            <summary>
+            The SpanTag3 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.JavascriptVoid0">
+            <summary>
+            The JavascriptVoid0 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.JavascriptVoid0Info">
+            <summary>
+            The JavascriptVoid0 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.ToastErrorToastNgTriggerNgTrigger">
+            <summary>
+            The ToastErrorToastNgTriggerNgTrigger item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.ToastErrorToastNgTriggerNgTriggerInfo">
+            <summary>
+            The ToastErrorToastNgTriggerNgTrigger item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềmAppFolder.HttpsHoclieuSachmemVnQuestionSet">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSet folder.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder">
+            <summary>
+            The HttpsHoclieuSachmemVnQuestionSetFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsHoclieuSachmemVnQuestionSet  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarked">
+            <summary>
+            The NgOptionNgOptionMarked item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgOptionNgOptionMarkedInfo">
+            <summary>
+            The NgOptionNgOptionMarked item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgInput">
+            <summary>
+            The NgInput item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgInputInfo">
+            <summary>
+            The NgInput item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgArrowWrapper">
+            <summary>
+            The NgArrowWrapper item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HttpsHoclieuSachmemVnQuestionSetFolder.NgArrowWrapperInfo">
+            <summary>
+            The NgArrowWrapper item info.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder">
+            <summary>
+            The HọcLiệuSachMềm1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HọcLiệuSachMềm1  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.JavascriptVoid0">
+            <summary>
+            The JavascriptVoid0 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.JavascriptVoid0Info">
+            <summary>
+            The JavascriptVoid0 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SpanTag3">
+            <summary>
+            The SpanTag3 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SpanTag3Info">
+            <summary>
+            The SpanTag3 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SpanTag5">
+            <summary>
+            The SpanTag5 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SpanTag5Info">
+            <summary>
+            The SpanTag5 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.HọcLiệuSachMềm1AppFolder.CreateAssignmentModal1">
+            <summary>
+            The CreateAssignmentModal1 folder.
+            </summary>
+        </member>
+        <member name="T:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder">
+            <summary>
+            The CreateAssignmentModal1Folder folder.
+            </summary>
+        </member>
+        <member name="M:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CreateAssignmentModal1  folder.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.CreateAssignmentModal">
+            <summary>
+            The CreateAssignmentModal item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.CreateAssignmentModalInfo">
+            <summary>
+            The CreateAssignmentModal item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.NgOptionNgOptionMarked">
+            <summary>
+            The NgOptionNgOptionMarked item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.NgOptionNgOptionMarkedInfo">
+            <summary>
+            The NgOptionNgOptionMarked item info.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.NgInput">
+            <summary>
+            The NgInput item.
+            </summary>
+        </member>
+        <member name="P:GBT_87.GBT_87RepositoryFolders.CreateAssignmentModal1Folder.NgInputInfo">
+            <summary>
+            The NgInput item info.
+            </summary>
+        </member>
+        <member name="T:GBT_87.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:GBT_87.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the GBT_87Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_87.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_87.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_87.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_87.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_87.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_87.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:GBT_87.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:GBT_87.Recording1.repo">
+            <summary>
+            Holds an instance of the GBT_87Repository repository.
+            </summary>
+        </member>
+        <member name="M:GBT_87.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:GBT_87.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:GBT_87.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:GBT_87.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:GBT_87.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:GBT_87.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

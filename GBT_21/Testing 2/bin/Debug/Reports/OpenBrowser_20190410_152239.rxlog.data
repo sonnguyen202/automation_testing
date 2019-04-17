@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="80f598d69f4daf"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="black"
+		rxversion="9.0.0.0"
+		host="DESKTOP-Q3681E5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/10/2019 3:22:44 PM"
+		timestampiso="2019-04-10T08:22:44"
+		endtime="4/10/2019 3:22:53 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.476"
+			timeRelativeToTestModuleStartTime="00:04.476"
+			timeWallClock="15:22:48"
+			time="00:04.476"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://hoclieu.sachmem.vn/question_set/5a4b18b248150cd8b90656fe/5a4b18b248150cd8b9065701/preview' with browser 'chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.745"
+			timeRelativeToTestModuleStartTime="00:04.745"
+			timeWallClock="15:22:48"
+			time="00:04.745"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'H&#7885;cLi&#7879;uSachM&#7873;m.GiaoBaiT&#7853;p' at 27;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']/body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				itempath="body/tag[@tagname='app-root']/div[2]//tag[@tagname='question']/div/div[2]/div/?/?/tag[@tagname='app-preview-list-question']/div/div[1]/div[1]/div[2]/a[@href='javascript:void(0)']/span[@innertext='Giao bài tập']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.GiaoBaiTập"
+				id="e6c4041b816f44df94413e00afd7bfd6"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.825"
+			timeRelativeToTestModuleStartTime="00:08.825"
+			timeWallClock="15:22:52"
+			time="00:08.825"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'H&#7885;cLi&#7879;uSachM&#7873;m.DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+				id="2132dce24ee742948288c979f2ac9149"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.943"
+			timeRelativeToTestModuleStartTime="00:08.943"
+			timeWallClock="15:22:53"
+			time="00:08.943"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'DivTagB&#7841;nCh&#432;aCoL&#7899;pH&#7885;c' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='hoclieu.sachmem.vn']//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				itempath=".//div[#'toast-container']/?/?/div[@innertext=' Bạn chưa có lớp học ']"
+				fullname="Testing_2Repository.HọcLiệuSachMềm.DivTagBạnChưaCoLớpHọc"
+				id="2132dce24ee742948288c979f2ac9149"
+				timeout="60000"
+				codefile="c:\Users\black\Documents\Ranorex\RanorexStudio Projects\Testing 2\Testing 2\OpenBrowser.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>
